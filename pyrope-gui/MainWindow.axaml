@@ -1,0 +1,12 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:MainWindowComponents="clr-namespace:pyropeGUI.Components.MainWindow"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+        x:Class="pyropeGUI.MainWindow"
+        Title="Pyrope - LIGHTS">
+  <Grid Background="{DynamicResource DarkBlackBackground}" RowDefinitions="*,350" ColumnDefinitions="60,60,*,*,120">
+    <MainWindowComponents:MenuBar></MainWindowComponents:MenuBar>
+  </Grid>
+</Window>

@@ -1,0 +1,33 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:material="using:Material.Icons.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="60" d:DesignHeight="600"
+             x:Class="pyropeGUI.Components.MainWindow.MenuBar">
+  <UserControl.Styles>
+    <Style Selector="Button.menuItem">
+      <Setter Property="Width" Value="50"></Setter>
+      <Setter Property="Height" Value="50"></Setter>
+      <Setter Property="Margin" Value="5,5,5,5"></Setter>
+      <Setter Property="Foreground" Value="{DynamicResource LightWhiteText}"></Setter>
+      <Setter Property="CornerRadius" Value="5"></Setter>
+    </Style>
+  </UserControl.Styles>
+  <Grid RowDefinitions="60,60,60,60" Background="{DynamicResource LightBlackBackground}">
+    <Button Classes="menuItem" Grid.Row="0">
+      <material:MaterialIcon Kind="Power" Width="40" Height="40" Margin="5,5,5,5"></material:MaterialIcon>
+    </Button>
+    <Button Classes="menuItem" Grid.Row="1">
+      <material:MaterialIcon Kind="Cog" Width="40" Height="40" Margin="5,5,5,5"></material:MaterialIcon>
+    </Button>
+    <Button Classes="menuItem" Grid.Row="2">
+      <material:MaterialIcon Kind="Lan" Width="40" Height="40" Margin="5,5,5,5"></material:MaterialIcon>
+    </Button>
+    <Button Classes="menuItem" Grid.Row="3">
+      <material:MaterialIcon Kind="AlertCircleOutline" Width="40" Height="40" Margin="5,5,5,5"></material:MaterialIcon>
+    </Button>
+
+    
+  </Grid>
+</UserControl>

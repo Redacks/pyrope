@@ -1,0 +1,16 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="pyropeGUI.App">
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+      <StyleInclude Source="avares://Material.Icons.Avalonia/App.xaml"></StyleInclude>
+    </Application.Styles>
+  <Application.Resources>
+    <SolidColorBrush x:Key="DarkBlackBackground" Color="#131313"></SolidColorBrush>
+    <SolidColorBrush x:Key="LightBlackBackground" Color="#1D1D1D"></SolidColorBrush>
+    <SolidColorBrush x:Key="DarkRedText" Color="#B50717"></SolidColorBrush>
+    <SolidColorBrush x:Key="LightRedText" Color="#CF291D"></SolidColorBrush>
+    <SolidColorBrush x:Key="DarkWhiteText" Color="#BFBFBF"></SolidColorBrush>
+    <SolidColorBrush x:Key="LightWhiteText" Color="#ECECEC"></SolidColorBrush>
+  </Application.Resources>
+</Application>
